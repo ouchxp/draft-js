@@ -413,7 +413,7 @@ function genFragment(
     );
 
     chunk = joinChunks(chunk, newChunk);
-    var sibling: Node = child.nextSibling;
+    var sibling: ?Node = child.nextSibling;
 
     // Put in a newline to break up blocks inside blocks
     if (
