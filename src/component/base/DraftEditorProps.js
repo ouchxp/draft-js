@@ -137,7 +137,7 @@ export type DraftEditorProps = {
   customStyleFn?: (style: DraftInlineStyle) => ?Object,
 
   // Provide a map of block rendering configurations. Each block type maps to
-  // an element tag and am optional react element wrapper. This configuration
+  // an element tag and an optional react element wrapper. This configuration
   // is used for both rendering and paste processing.
   blockRenderMap: DraftBlockRenderMap
 };
